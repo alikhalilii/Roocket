@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Document</title>
+  </head>
+  <body class="bgcolor1 dark:bg-slate-900 fshabnam">
+    <!-- HEADER -->
+    <header>
+      <section class="container mx-auto items-center flex flex-col mt-10">
+        <div
+          class="bg-white w-10/12 h-24 rounded-xl flex items-center justify-between"
+        >
+        <a class="flex lg:hidden ms-5" href="#"><img  src="/images/Annotation 2024-06-15 144756.png" alt=""></a>
+        <img class="lg:hidden" src="/images/Annotation 2024-06-15 144741.png" alt="">
+          <div class="ms-10 hidden lg:flex">
+            <img src="/images/Annotation 2024-06-07 134750.png" alt="" />
+          </div>
+          <div class="hidden lg:flex items-center bgcolor2 w-5/12 h-10 rounded-xl">
+            <a class="p-2" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.5em"
+                height="1.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#6A7990"
+                  d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396l1.414-1.414l-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8s3.589 8 8 8m0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6s-6-2.691-6-6s2.691-6 6-6"
+                /></svg
+            ></a>
+            <input
+              class="bgcolor2 border-0 outline-none w-full rounded-xl h-full"
+              type="search"
+            />
+          </div>
+          <div class=" flex me-10 gap-4">
+            <div class="hidden lg:flex">
+              <button
+              id="theme-toggle"
+              type="button"
+              class="bgcolor2 rounded-full text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 text-sm p-2.5"
+            >
+              <svg
+                id="theme-toggle-dark-icon"
+                class="hidden w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                ></path>
+              </svg>
+              <svg
+                id="theme-toggle-light-icon"
+                class="hidden w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+            </div>
+
+
+            <div class="inline-flex rounded-md shadow-sm" role="group">
+              <button
+                type="button"
+                class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white"
+              >
+                <svg
+                  class="w-3 h-3 me-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"
+                  />
+                </svg>
+                ورود
+              </button>
+
+              <button
+                type="button"
+                class="inline-flex items-center px-4 py-2 text-sm shabnam font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white"
+              >
+                <svg
+                  class="w-3 h-3 me-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"
+                  />
+                  <path
+                    d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+                  />
+                </svg>
+                عضویت
+              </button>
+            </div>
+          </div>
+        </div>
+        <nav
+          class="hidden lg:flex w-9/12 h-16 bg-gray-300 justify-center items-center rounded-b-xl"
+        >
+          <ul class="flex gap-5">
+            <li><a class="" href="">راکت</a></li>
+            <li><a href="">دوره های آموزشی</a></li>
+            <li><a href="">پرسش و پاسخ ها</a></li>
+            <li><a href="">مقالات</a></li>
+            <li><a href="">راکت کست</a></li>
+            <li><a href="">لینک های مفید</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <!-- SECTION 1 -->
+      <section class="container mx-auto lg:flex mt-16 justify-center">
+        <div class="flex flex-col lg:w-6/12 gap-12 w-full">
+          <h2 class="text-slate-700 text-5xl font-bold leading-[4rem]">
+            داستان برنامه نویس<br />
+            شدنت از اینجا شروع میشه!
+          </h2>
+          <h3 class="text-slate-400 text-xl leading-8">
+            یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته<br />
+            باشید، بقیه‌اش با راکت
+          </h3>
+          <button
+            class="bg-blue-500 text-xl w-80 hover:bg-slate-700 text-white px-10 py-4 rounded-xl"
+          >
+            شروع یادگیری برنامه‌نویسی
+          </button>
+          <div class="flex flex-wrap gap-x-10 gap-y-5">
+            <div class="flex gap-6">
+              <div class="bg-pink-200 rounded-full">
+                <svg
+                  class=""
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2.5em"
+                  height="2em"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="none"
+                    stroke="#E81C4D"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M14.25 9.25V6L8 2.75L1.75 6L8 9.25l3.25-1.5v3.5c0 1-1.5 2-3.25 2s-3.25-1-3.25-2v-3.5"
+                  />
+                </svg>
+              </div>
+              <span class="text-lg font-bold text-slate-600"
+                >بیش از 80 دوره آموزشی</span
+              >
+            </div>
+            <div class="flex gap-6">
+              <div class="bg-slate-200 px-1 rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="2em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="#A2ACBF"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8H5m12 0a1 1 0 0 1 1 1v2.6M17 8l-4-4M5 8a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.6M5 8l4-4l4 4m6 4h-4a2 2 0 1 0 0 4h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+                  />
+                </svg>
+              </div>
+              <span class="text-lg font-bold text-slate-600"
+                >ضمانت بازگشت وجه</span
+              >
+            </div>
+            <div class="flex gap-6">
+              <div class="bg-purple-200 px-1 rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="1.8em"
+                  viewBox="0 0 15 15"
+                >
+                  <path
+                    fill="#9B30EF"
+                    fill-rule="evenodd"
+                    d="M12.146 1.146a.5.5 0 0 1 .707 0l2 2a.5.5 0 0 1 0 .708l-3.942 3.942a1 1 0 0 1-.26.188L6.724 9.947a.5.5 0 0 1-.671-.67l1.963-3.928a1 1 0 0 1 .188-.26zm.354 1.061l-3.59 3.59l-1.037 2.076l.254.254l2.077-1.038L13.793 3.5zM10 2L9 3H4.9c-.428 0-.72 0-.944.019c-.22.018-.332.05-.41.09a1 1 0 0 0-.437.437c-.04.078-.072.19-.09.41C3 4.18 3 4.472 3 4.9v6.2c0 .428 0 .72.019.944c.018.22.05.332.09.41a1 1 0 0 0 .437.437c.078.04.19.072.41.09c.225.019.516.019.944.019h6.2c.428 0 .72 0 .944-.019c.22-.018.332-.05.41-.09a1 1 0 0 0 .437-.437c.04-.078.072-.19.09-.41c.019-.225.019-.516.019-.944V7l1-1v5.12c0 .403 0 .735-.022 1.006c-.023.281-.072.54-.196.782a2 2 0 0 1-.874.874c-.243.124-.501.173-.782.196c-.27.022-.603.022-1.005.022H4.88c-.403 0-.735 0-1.006-.022c-.281-.023-.54-.072-.782-.196a2 2 0 0 1-.874-.874c-.124-.243-.173-.501-.196-.782C2 11.856 2 11.523 2 11.12V4.88c0-.403 0-.735.022-1.006c.023-.281.072-.54.196-.782a2 2 0 0 1 .874-.874c.243-.124.501-.173.782-.196C4.144 2 4.477 2 4.88 2h.02z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <span class="text-lg font-bold text-slate-600"
+                >یادگیری با تمرین و آزمون</span
+              >
+            </div>
+            <div class="flex gap-6">
+              <div class="bg-sky-200 px-1 rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
+                  height="1.8em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none">
+                    <path
+                      stroke="#51B6FF"
+                      stroke-width="1.5"
+                      d="M17 12a5 5 0 1 0-4.478-2.774a.817.817 0 0 1 .067.574l-.298 1.113a.65.65 0 0 0 .796.796l1.113-.298a.817.817 0 0 1 .574.067A4.98 4.98 0 0 0 17 12Z"
+                    />
+                    <path
+                      fill="#51B6FF"
+                      d="m14.1 16.027l-.543-.516zm.456-.48l.544.517zm2.417-.335l-.374.65zm1.91 1.1l-.374.65zm.539 3.446l.543.517zm-1.42 1.496l-.545-.517zm-1.326.71l.074.745zm-9.86-4.489l.543-.516zm-4.813-9.51l-.749.041zm6.475 1.538l.543.517zm.156-2.81l.613-.433zM7.374 4.91l-.613.433zM4.26 4.609l.544.516zM2.691 6.26l-.543-.516zm7.372 7.795l.544-.517zm4.582 2.488l.455-.48l-1.088-1.033l-.455.48zm1.954-.682l1.91 1.1l.749-1.3l-1.911-1.1zm2.279 3.38l-1.42 1.495l1.087 1.034l1.42-1.496zm-2.275 1.975c-1.435.141-5.18.02-9.244-4.258l-1.087 1.033c4.429 4.663 8.654 4.898 10.478 4.717zm-9.244-4.258c-3.876-4.081-4.526-7.523-4.607-9.033l-1.498.08c.1 1.85.884 5.634 5.018 9.986zm1.376-6.637l.286-.302l-1.087-1.033l-.287.302zm.512-4.062L7.986 4.477l-1.225.866l1.26 1.783zm-5.53-2.168L2.149 5.745l1.088 1.033l1.57-1.653zm4.474 5.713a38.223 38.223 0 0 0-.545-.515l-.002.002l-.003.003a.822.822 0 0 0-.05.058a1.592 1.592 0 0 0-.23.427c-.098.275-.15.639-.084 1.093c.13.892.715 2.091 2.242 3.7l1.088-1.034c-1.428-1.503-1.78-2.428-1.846-2.884c-.032-.22 0-.335.013-.372l.008-.019a.26.26 0 0 1-.037.047l-.005.005a.05.05 0 0 1-.003.003l-.001.001s-.002.002-.545-.515m1.328 4.767c1.523 1.604 2.673 2.234 3.55 2.377c.451.073.816.014 1.092-.095a1.52 1.52 0 0 0 .421-.25a.922.922 0 0 0 .036-.034l.014-.014a.369.369 0 0 0 .01-.01h.001c0-.002.002-.002-.542-.519c-.544-.516-.543-.517-.543-.518l.002-.001l.002-.003a.241.241 0 0 0 .005-.005l.01-.01a.446.446 0 0 1 .037-.032c.01-.006.009-.004-.004.001c-.02.008-.11.04-.3.009c-.402-.066-1.27-.42-2.703-1.929zM7.986 4.477C6.972 3.043 4.944 2.8 3.718 4.092l1.087 1.033c.523-.55 1.444-.507 1.956.218zM2.752 7.926c-.022-.4.152-.8.484-1.148L2.148 5.745c-.536.564-.943 1.347-.894 2.261zm14.705 12.811c-.279.294-.57.452-.854.48l.147 1.492c.747-.073 1.352-.472 1.795-.939zM9.021 10.02c.969-1.02 1.036-2.613.226-3.76l-1.225.866c.422.597.357 1.392-.088 1.86zm9.488 6.942c.821.473.982 1.635.369 2.28l1.087 1.033c1.305-1.374.925-3.673-.707-4.613zm-3.409-.898c.385-.406.986-.497 1.499-.202l.748-1.3c-1.099-.632-2.46-.45-3.335.47z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <span class="text-lg font-bold text-slate-600"
+                >بیش از 80 دوره آموزشی</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12">
+          <img src="/images/Annotation 2024-06-13 204256.png" alt="" />
+        </div>
+      </section>
+      <!-- SECTION 2 -->
+      <section class="container mx-auto mt-36">
+        <div class="flex justify-between">
+          <h3 class="text-4xl font-bold text-slate-700">آخرین دوره ها</h3>
+          <a href="#"
+            ><span class="text-xl text-slate-500">مشاهده همه دوره ها</span></a
+          >
+        </div>
+        <!-- CARDS -->
+        <div class="mt-20 flex flex-wrap gap-x-5 gap-y-20 justify-center">
+          <!-- CARD 1 -->
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2023/12/1/DVR05FQ8KOVnKQSlBPBXxsWkx3dqqwhk7a3ibULR.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2024/3/15/EbATSic1DTWuA71kKNttARiXVVuDGyVRhEZ5Gfp1.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2023/12/1/9b04K1DH2DpNew697kBVLIJ9bdeIISvWAUSb3nW6.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2024/3/1/aE9nP6wnSnB9ib0M1Q6HelLDM2UZtBf1Bo5LAUhu.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2024/3/19/ctYWILBCgvB3acniqYi5iir43A8c6uhrXFLW4LO8.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2023/12/16/5bXkwppbwaAIC7LQPqkfr9MSFjkA04NixdFNVwZu.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2024/3/17/cjrvYIIKwBOgP9NlKHeWYi4bXIcwIe9UQHZNlAbs.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+          <div
+            class="bg-white w-80 h-[25rem] rounded-xl flex flex-col gap-3 px-2"
+          >
+            <a href=""
+              ><img
+                class="-mt-10 rounded-xl overflow-hidden scale-95 hover:scale-100 w-72 mx-auto"
+                src="https://static.roocket.ir/images/cover/2024/3/16/c8hi7JBefdfRufQj0uYhfgZMjAM0eznraYDb3TVc.jpg"
+                alt=""
+            /></a>
+            <div class="text-blue-600 flex items-baseline gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="0.5em"
+                height="0.5em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#3B82F6"
+                  d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+                />
+              </svg>
+              <span class="text-xs">در حال ضبط</span>
+            </div>
+            <a
+              class="text-slate-700 font-bold text-2xl hover:text-blue-600"
+              href="#"
+              >آموزش Next.js</a
+            >
+            <p class="text-sm text-gray-500">
+              دوره آموزش Next.js به شما کمک می‌کند SSR را برای React به سادگی
+              راه‌اندازی کنید و یک وبسایت با سئو مناسب با React بوجود آورید.
+            </p>
+            <div class="flex gap-2">
+              <svg
+                class="bg-amber-100 rounded-full"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#FFA826"
+                  d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08z"
+                />
+              </svg>
+              <span class="text-xs text-gray-700 font-bold"
+                >دسترسی رایگان برای اعضای ویژه</span
+              >
+            </div>
+            <div class="flex text-xs px-3 gap-2">
+              <div
+                class="flex bg-gray-300 px-2 py-1 rounded-md items-center gap-1"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <g fill="none" stroke="#7486A4" stroke-width="1.5">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 8v4l2.5 2.5"
+                    />
+                    <path
+                      d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"
+                    />
+                  </g>
+                </svg>
+                <span class="text-gray-500">07:57:11</span>
+              </div>
+              <a
+                class="px-2 pt-2 rounded-md bg-red-200 hover:bg-red-600"
+                href=""
+              >
+                <div class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.5em"
+                    height="1.5em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#F3B4B4"
+                      d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"
+                    />
+                  </svg>
+                  <span class="text-red-400">210</span>
+                </div>
+              </a>
+              <span class="text-2xl font-bold ms-10">590,000</span>
+            </div>
+            <hr />
+            <a
+              class="mx-auto text-lg hover:text-slate-800 text-blue-600"
+              href=""
+              >مشاهده اطلاعات دوره</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- SECTION 3 -->
+      <section class="container mx-auto mt-40">
+        <div class="flex justify-between">
+          <h3 class="text-4xl font-bold text-slate-700">مسیرهای یادگیری</h3>
+          <a href="#">
+            <span class="text-xl text-slate-500">مشاهده همه مسیرهای یادگیری</span>
+          </a>
+        </div>
+        <div class="mt-10 flex flex-wrap justify-center gap-10">
+          <div class="w-96 h-72 border border-slate-300 rounded-lg py-5">
+            <div class="flex justify-between items-center px-6">
+              <img src="/images/Annotation 2024-06-15 114909.png" alt="">
+              <div class=" h-8 px-2 py-1 border inline-flex border-slate-300 rounded-lg items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512"><path fill="#3B82F6" d="M256 89.61L22.486 177.18L256 293.937l111.22-55.61l-104.337-31.9A16 16 0 0 1 256 208a16 16 0 0 1-16-16a16 16 0 0 1 16-16l-2.646 8.602l18.537 5.703l.008.056l27.354 8.365L455 246.645v12.146a16 16 0 0 0-7 13.21a16 16 0 0 0 7.293 13.406C448.01 312.932 448 375.383 448 400c16 10.395 16 10.775 32 0c0-24.614-.008-87.053-7.29-114.584A16 16 0 0 0 480 272a16 16 0 0 0-7-13.227v-25.42L413.676 215.1l75.838-37.92zM119.623 249L106.5 327.74c26.175 3.423 57.486 18.637 86.27 36.627c16.37 10.232 31.703 21.463 44.156 32.36c7.612 6.66 13.977 13.05 19.074 19.337c5.097-6.288 11.462-12.677 19.074-19.337c12.453-10.897 27.785-22.128 44.156-32.36c28.784-17.99 60.095-33.204 86.27-36.627L392.375 249h-6.25L256 314.063L125.873 249z"/></svg>
+                <span class="text-xs">شامل 12 دوره</span>
+              </div>
+            </div>
+            <a class="hover:text-blue-500" href=""><h3 class="text-2xl font-extrabold px-6 mt-7">آموزش لاراول</h3></a>
+            <p class=" text-gray-500 px-6 mt-5">لاراول پر استفاده‌ترین فریمورک زبان برنامه نویسی PHP بوده و در سال‌های اخیر توسط شرکت‌ها و استارتاپ‌های بسیار زیادی مورد...</p>
+            <hr class=" my-2">
+            <a class="text-blue-600 text-lg hover:text-gray-900 px-6 flex justify-end mt-3" href="#">مشاهده اطلاعات مسیر یادگیری</a>
+          </div>
+          <div class="w-96 h-72 border border-slate-300 rounded-lg py-5">
+            <div class="flex justify-between items-center px-6">
+              <img src="/images/Annotation 2024-06-15 114909.png" alt="">
+              <div class=" h-8 px-2 py-1 border inline-flex border-slate-300 rounded-lg items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512"><path fill="#3B82F6" d="M256 89.61L22.486 177.18L256 293.937l111.22-55.61l-104.337-31.9A16 16 0 0 1 256 208a16 16 0 0 1-16-16a16 16 0 0 1 16-16l-2.646 8.602l18.537 5.703l.008.056l27.354 8.365L455 246.645v12.146a16 16 0 0 0-7 13.21a16 16 0 0 0 7.293 13.406C448.01 312.932 448 375.383 448 400c16 10.395 16 10.775 32 0c0-24.614-.008-87.053-7.29-114.584A16 16 0 0 0 480 272a16 16 0 0 0-7-13.227v-25.42L413.676 215.1l75.838-37.92zM119.623 249L106.5 327.74c26.175 3.423 57.486 18.637 86.27 36.627c16.37 10.232 31.703 21.463 44.156 32.36c7.612 6.66 13.977 13.05 19.074 19.337c5.097-6.288 11.462-12.677 19.074-19.337c12.453-10.897 27.785-22.128 44.156-32.36c28.784-17.99 60.095-33.204 86.27-36.627L392.375 249h-6.25L256 314.063L125.873 249z"/></svg>
+                <span class="text-xs">شامل 12 دوره</span>
+              </div>
+            </div>
+            <a class="hover:text-blue-500" href=""><h3 class="text-2xl font-extrabold px-6 mt-7">آموزش لاراول</h3></a>
+            <p class=" text-gray-500 px-6 mt-5">لاراول پر استفاده‌ترین فریمورک زبان برنامه نویسی PHP بوده و در سال‌های اخیر توسط شرکت‌ها و استارتاپ‌های بسیار زیادی مورد...</p>
+            <hr class=" my-2">
+            <a class="text-blue-600 text-lg hover:text-gray-900 px-6 flex justify-end mt-3" href="#">مشاهده اطلاعات مسیر یادگیری</a>
+          </div>
+          <div class="w-96 h-72 border border-slate-300 rounded-lg py-5">
+            <div class="flex justify-between items-center px-6">
+              <img src="/images/Annotation 2024-06-15 114909.png" alt="">
+              <div class=" h-8 px-2 py-1 border inline-flex border-slate-300 rounded-lg items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512"><path fill="#3B82F6" d="M256 89.61L22.486 177.18L256 293.937l111.22-55.61l-104.337-31.9A16 16 0 0 1 256 208a16 16 0 0 1-16-16a16 16 0 0 1 16-16l-2.646 8.602l18.537 5.703l.008.056l27.354 8.365L455 246.645v12.146a16 16 0 0 0-7 13.21a16 16 0 0 0 7.293 13.406C448.01 312.932 448 375.383 448 400c16 10.395 16 10.775 32 0c0-24.614-.008-87.053-7.29-114.584A16 16 0 0 0 480 272a16 16 0 0 0-7-13.227v-25.42L413.676 215.1l75.838-37.92zM119.623 249L106.5 327.74c26.175 3.423 57.486 18.637 86.27 36.627c16.37 10.232 31.703 21.463 44.156 32.36c7.612 6.66 13.977 13.05 19.074 19.337c5.097-6.288 11.462-12.677 19.074-19.337c12.453-10.897 27.785-22.128 44.156-32.36c28.784-17.99 60.095-33.204 86.27-36.627L392.375 249h-6.25L256 314.063L125.873 249z"/></svg>
+                <span class="text-xs">شامل 12 دوره</span>
+              </div>
+            </div>
+            <a class="hover:text-blue-500" href=""><h3 class="text-2xl font-extrabold px-6 mt-7">آموزش لاراول</h3></a>
+            <p class=" text-gray-500 px-6 mt-5">لاراول پر استفاده‌ترین فریمورک زبان برنامه نویسی PHP بوده و در سال‌های اخیر توسط شرکت‌ها و استارتاپ‌های بسیار زیادی مورد...</p>
+            <hr class=" my-2">
+            <a class="text-blue-600 text-lg hover:text-gray-900 px-6 flex justify-end mt-3" href="#">مشاهده اطلاعات مسیر یادگیری</a>
+          </div>
+        </div>
+        <div class="flex items-center justify-center mt-10 gap-2">
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="#64748B" d="M4 11.25a.75.75 0 0 0 0 1.5h9.25V18a.75.75 0 0 0 1.28.53l6-6a.75.75 0 0 0 0-1.06l-6-6a.75.75 0 0 0-1.28.53v5.25z"/></svg></a>
+          <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#DEE1E6" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg></a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24"><path fill="#64748B" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg></a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#DEE1E6" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg></a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="#64748B" d="M20 11.25a.75.75 0 0 1 0 1.5h-9.25V18a.75.75 0 0 1-1.28.53l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.28.53v5.25z"/></svg></a>
+        </div>
+      </section>
+      <!-- SECTION 4 -->
+       <section class="lg:flex items-center container mx-auto justify-center gap-10 mt-20">
+        <div class="">
+          <h2 class="text-3xl text-slate-700 font-bold">در مورد راکت چه میشنویم؟</h2>
+          <p class="text-lg text-gray-500">این‌ها، بخش خیلی کوچکی از نظراتی هستند که افراد<br> مختلف در مورد راکت دارند.</p>
+        </div>
+        <div>
+          <img src="/images/Annotation 2024-06-15 122534.png" alt="">
+        </div>
+       </section>
+       <!-- SECTION 5 -->
+        <section class="container mx-auto justify-center flex relative mb-80 mt-64">
+          <div class="w-10/12 h-96 bg-gray-200 rounded-xl lg:flex">
+            <div class="w-12/12 xl:w-5/12 h-full flex flex-col items-start justify-center ms-5">
+              <h2 class="text-4xl font-bold text-slate-800">از گوشه و اطراف دنیای برنامه نویسی</h2>
+              <p class="text-lg text-gray-500 mt-4">نوشتن کار جالبیه که از هزاران سال همراه ما بوده و کمک کرده تا همیشه به روز باشیم، ما در راکت فضای رو به شکلی آماده کردیم تا شما بتونید ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو در اختیار هزاران برنامه‌نویس عضو راکت قرار بدید.</p>
+              <button class="bg-blue-500 text-white px-4 py-2 mt-6 hover:bg-gray-800 rounded-lg">مشاهده همه مطالب</button>
+            </div>
+            <div class=" w-full xl:w-7/12 2xl:flex flex-wrap gap-10 ms-5 hidden">
+              <div class="flex flex-col gap-7 -translate-y-52">
+                <div class="w-80 h-80 bg-white px-3 rounded-lg">
+                  <img class="scale-75 hover:scale-90" src="https://static.roocket.ir/images/cover/2024/6/14/SVDUCtBPMc4OLuHn2SOWyGHVbsJMpTEavgg4jfa8.jpg" alt="">
+                  <h3 class="text-xl font-bold text-slate-700">agile چیست؟</h3>
+                  <div class="flex justify-between items-center mt-5">
+                    <span class="text-sm text-gray-500">ارسطو عباسی</span>
+                    <a class="hover:bg-blue-500 bg-sky-100 text-sky-600 hover:text-white px-3 py-1 rounded-lg text-sm" href="">توسعه وب</a>
+                  </div>
+                  <div class="flex items-center gap-1 mt-7">
+                    <a class="bg-gray-100 hover:bg-gray-500 p-1 rounded-md" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#8393AC" d="M6.5 13.5h11v-1h-11zm0-3h11v-1h-11zm0-3h11v-1h-11zM21 20.077L17.923 17H4.616q-.691 0-1.154-.462T3 15.385V4.615q0-.69.463-1.153T4.615 3h14.77q.69 0 1.152.462T21 4.615zM4.616 16H18.35L20 17.644V4.616q0-.231-.192-.424T19.385 4H4.615q-.23 0-.423.192T4 4.615v10.77q0 .23.192.423t.423.192M4 16V4z"/></svg></a>
+                    <a class="bg-pink-100 hover:bg-red-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><path fill="#EF9E9E" d="M178 42c-21 0-39.26 9.47-50 25.34C117.26 51.47 99 42 78 42a60.07 60.07 0 0 0-60 60c0 29.2 18.2 59.59 54.1 90.31a334.7 334.7 0 0 0 53.06 37a6 6 0 0 0 5.68 0a334.7 334.7 0 0 0 53.06-37C219.8 161.59 238 131.2 238 102a60.07 60.07 0 0 0-60-60m-50 175.11c-16.41-9.47-98-59.39-98-115.11a48.05 48.05 0 0 1 48-48c20.28 0 37.31 10.83 44.45 28.27a6 6 0 0 0 11.1 0C140.69 64.83 157.72 54 178 54a48.05 48.05 0 0 1 48 48c0 55.72-81.59 105.64-98 115.11"/></svg></a>
+                    <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                    <span class="text-xs text-gray-500 ms-24">زمان مطالعه:7دقیقه</span>
+                  </div>
+  
+                </div>
+                <div class="w-80 h-80 bg-white px-3 rounded-lg">
+                  <img class="scale-75 hover:scale-90" src="https://static.roocket.ir/images/cover/2024/6/12/GxQ34lkbOhZVtsVEB45RrspSRKM0dvrGtbuOtuS5.png" alt="">
+                  <h3 class="text-xl font-bold text-slate-700">agile چیست؟</h3>
+                  <div class="flex justify-between items-center mt-7">
+                    <span class="text-sm text-gray-500">ارسطو عباسی</span>
+                    <a class="hover:bg-blue-500 bg-sky-100 text-sky-600 hover:text-white px-3 py-1 rounded-lg text-sm" href="">توسعه وب</a>
+                  </div>
+                  <div class="flex items-center gap-1 mt-10">
+                    <a class="bg-gray-100 hover:bg-gray-500 p-1 rounded-md" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#8393AC" d="M6.5 13.5h11v-1h-11zm0-3h11v-1h-11zm0-3h11v-1h-11zM21 20.077L17.923 17H4.616q-.691 0-1.154-.462T3 15.385V4.615q0-.69.463-1.153T4.615 3h14.77q.69 0 1.152.462T21 4.615zM4.616 16H18.35L20 17.644V4.616q0-.231-.192-.424T19.385 4H4.615q-.23 0-.423.192T4 4.615v10.77q0 .23.192.423t.423.192M4 16V4z"/></svg></a>
+                    <a class="bg-pink-100 hover:bg-red-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><path fill="#EF9E9E" d="M178 42c-21 0-39.26 9.47-50 25.34C117.26 51.47 99 42 78 42a60.07 60.07 0 0 0-60 60c0 29.2 18.2 59.59 54.1 90.31a334.7 334.7 0 0 0 53.06 37a6 6 0 0 0 5.68 0a334.7 334.7 0 0 0 53.06-37C219.8 161.59 238 131.2 238 102a60.07 60.07 0 0 0-60-60m-50 175.11c-16.41-9.47-98-59.39-98-115.11a48.05 48.05 0 0 1 48-48c20.28 0 37.31 10.83 44.45 28.27a6 6 0 0 0 11.1 0C140.69 64.83 157.72 54 178 54a48.05 48.05 0 0 1 48 48c0 55.72-81.59 105.64-98 115.11"/></svg></a>
+                    <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                    <span class="text-xs text-gray-500 ms-24">زمان مطالعه:7دقیقه</span>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="flex flex-col gap-7 -translate-y-36">
+                <div class="w-80 h-80 bg-white px-3 rounded-lg">
+                  <img class="scale-75 hover:scale-90" src="https://static.roocket.ir/images/cover/2024/6/10/BjK04GHUquYXC97HCrpAEaYCo62OqjBmpRGoUN0m.jpg" alt="">
+                  <h3 class="text-xl font-bold text-slate-700">agile چیست؟</h3>
+                  <div class="flex justify-between items-center mt-3">
+                    <span class="text-sm text-gray-500">ارسطو عباسی</span>
+                    <a class="hover:bg-blue-500 bg-sky-100 text-sky-600 hover:text-white px-3 py-1 rounded-lg text-sm" href="">توسعه وب</a>
+                  </div>
+                  <div class="flex items-center gap-1 mt-5">
+                    <a class="bg-gray-100 hover:bg-gray-500 p-1 rounded-md" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#8393AC" d="M6.5 13.5h11v-1h-11zm0-3h11v-1h-11zm0-3h11v-1h-11zM21 20.077L17.923 17H4.616q-.691 0-1.154-.462T3 15.385V4.615q0-.69.463-1.153T4.615 3h14.77q.69 0 1.152.462T21 4.615zM4.616 16H18.35L20 17.644V4.616q0-.231-.192-.424T19.385 4H4.615q-.23 0-.423.192T4 4.615v10.77q0 .23.192.423t.423.192M4 16V4z"/></svg></a>
+                    <a class="bg-pink-100 hover:bg-red-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><path fill="#EF9E9E" d="M178 42c-21 0-39.26 9.47-50 25.34C117.26 51.47 99 42 78 42a60.07 60.07 0 0 0-60 60c0 29.2 18.2 59.59 54.1 90.31a334.7 334.7 0 0 0 53.06 37a6 6 0 0 0 5.68 0a334.7 334.7 0 0 0 53.06-37C219.8 161.59 238 131.2 238 102a60.07 60.07 0 0 0-60-60m-50 175.11c-16.41-9.47-98-59.39-98-115.11a48.05 48.05 0 0 1 48-48c20.28 0 37.31 10.83 44.45 28.27a6 6 0 0 0 11.1 0C140.69 64.83 157.72 54 178 54a48.05 48.05 0 0 1 48 48c0 55.72-81.59 105.64-98 115.11"/></svg></a>
+                    <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                    <span class="text-xs text-gray-500 ms-24">زمان مطالعه:7دقیقه</span>
+                  </div>
+  
+                </div>
+                <div class="w-80 h-80 bg-white px-3 rounded-lg">
+                  <img class="scale-75 hover:scale-90" src="https://static.roocket.ir/images/cover/2024/6/9/qemrOvJNn3e3Gr4g31pZXIs6vsdYGaePTfRINDEH.jpg" alt="">
+                  <h3 class="text-xl font-bold text-slate-700">agile چیست؟</h3>
+                  <div class="flex justify-between items-center mt-3">
+                    <span class="text-sm text-gray-500">ارسطو عباسی</span>
+                    <a class="hover:bg-blue-500 bg-sky-100 text-sky-600 hover:text-white px-3 py-1 rounded-lg text-sm" href="">توسعه وب</a>
+                  </div>
+                  <div class="flex items-center gap-1 mt-5">
+                    <a class="bg-gray-100 hover:bg-gray-500 p-1 rounded-md" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#8393AC" d="M6.5 13.5h11v-1h-11zm0-3h11v-1h-11zm0-3h11v-1h-11zM21 20.077L17.923 17H4.616q-.691 0-1.154-.462T3 15.385V4.615q0-.69.463-1.153T4.615 3h14.77q.69 0 1.152.462T21 4.615zM4.616 16H18.35L20 17.644V4.616q0-.231-.192-.424T19.385 4H4.615q-.23 0-.423.192T4 4.615v10.77q0 .23.192.423t.423.192M4 16V4z"/></svg></a>
+                    <a class="bg-pink-100 hover:bg-red-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256"><path fill="#EF9E9E" d="M178 42c-21 0-39.26 9.47-50 25.34C117.26 51.47 99 42 78 42a60.07 60.07 0 0 0-60 60c0 29.2 18.2 59.59 54.1 90.31a334.7 334.7 0 0 0 53.06 37a6 6 0 0 0 5.68 0a334.7 334.7 0 0 0 53.06-37C219.8 161.59 238 131.2 238 102a60.07 60.07 0 0 0-60-60m-50 175.11c-16.41-9.47-98-59.39-98-115.11a48.05 48.05 0 0 1 48-48c20.28 0 37.31 10.83 44.45 28.27a6 6 0 0 0 11.1 0C140.69 64.83 157.72 54 178 54a48.05 48.05 0 0 1 48 48c0 55.72-81.59 105.64-98 115.11"/></svg></a>
+                    <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                    <span class="text-xs text-gray-500 ms-24">زمان مطالعه:7دقیقه</span>
+                  </div>
+  
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+        <!-- SECTION 6 -->
+         <section class="container mx-auto">
+          <h2 class="text-slate-700 text-4xl font-bold ">راکت کست</h2>
+          <div class="flex justify-between mt-2">
+            <h3 class="text-xl text-gray-500">پادکست‌های اختصاصی طراحی و برنامه‌نویسی</h3>
+            <a href="#" class="text-xl text-gray-500">مشاهده همه پادکست های صوتی</a>
+          </div>
+          <div class="mt-8 flex justify-center gap-10 flex-wrap">
+            <div class="w-96 h-40 bg-white py-5 px-3 rounded-lg">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center border border-gray-200 rounded-lg px-3 py-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><g fill="#3b72f6"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"/><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/></g></svg>
+                  <span>شماره 1066</span>
+                </div>
+                <div class="flex gap-1">
+                  <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md h-7" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                  <div class="bg-gray-200 flex items-center gap-1 rounded-md px-2 py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#6f82a0" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0m0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01m32-462V192.002c0-17.664-14.336-32-32-32s-32 14.336-32 32v320c0 9.056 3.792 17.2 9.856 23.007c.529.624.96 1.296 1.537 1.887l158.384 158.4c12.496 12.481 32.752 12.481 45.248 0c12.496-12.496 12.496-32.768 0-45.264z"/></svg>
+                    <span class="text-sm text-gray-500">55:20</span>
+                  </div>
+                  <a class="hover:bg-red-600 rounded-md bg-pink-200" href="#">
+                    <div class= "text-red-500 flex items-center px-1 rounded-md py-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="#EC8A8A" d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"/></svg>
+                      <span class="text-sm">1</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <a  class="text-lg text-slate-700 font-bold hover:text-blue-500" href="#">هوش مصنوعی و علم داده - آینده برنامه‌نویس‌ها<br> چی میشه؟ - قسمت اول</a>
+              <hr class="mt-2">
+              <a class="hover:text-gray-800 text-blue-500 text-xs mt-2" href="#"> برای گوش کردن کلیک کنید</a>
+
+            </div>
+            <div class="w-96 h-40 bg-white py-5 px-3 rounded-lg">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center border border-gray-200 rounded-lg px-3 py-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><g fill="#3b72f6"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"/><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/></g></svg>
+                  <span>شماره 1066</span>
+                </div>
+                <div class="flex gap-1">
+                  <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md h-7" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                  <div class="bg-gray-200 flex items-center gap-1 rounded-md px-2 py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#6f82a0" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0m0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01m32-462V192.002c0-17.664-14.336-32-32-32s-32 14.336-32 32v320c0 9.056 3.792 17.2 9.856 23.007c.529.624.96 1.296 1.537 1.887l158.384 158.4c12.496 12.481 32.752 12.481 45.248 0c12.496-12.496 12.496-32.768 0-45.264z"/></svg>
+                    <span class="text-sm text-gray-500">55:20</span>
+                  </div>
+                  <a class="hover:bg-red-600 rounded-md bg-pink-200" href="#">
+                    <div class= "text-red-500 flex items-center px-1 rounded-md py-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="#EC8A8A" d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"/></svg>
+                      <span class="text-sm">1</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <a  class="text-lg text-slate-700 font-bold hover:text-blue-500" href="#">هوش مصنوعی و علم داده - آینده برنامه‌نویس‌ها<br> چی میشه؟ - قسمت اول</a>
+              <hr class="mt-2">
+              <a class="hover:text-gray-800 text-blue-500 text-xs mt-2" href="#"> برای گوش کردن کلیک کنید</a>
+
+            </div>
+            <div class="w-96 h-40 bg-white py-5 px-3 rounded-lg">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center border border-gray-200 rounded-lg px-3 py-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><g fill="#3b72f6"><path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0z"/><path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/></g></svg>
+                  <span>شماره 1066</span>
+                </div>
+                <div class="flex gap-1">
+                  <a class="bg-sky-100 hover:bg-blue-500 p-1 rounded-md h-7" href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24"><path fill="#7CACF9" d="M5 21V5q0-.825.588-1.412T7 3h10q.825 0 1.413.588T19 5v16l-7-3zm2-3.05l5-2.15l5 2.15V5H7zM7 5h10z"/></svg></a>
+                  <div class="bg-gray-200 flex items-center gap-1 rounded-md px-2 py-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="#6f82a0" d="M512 0C229.232 0 0 229.232 0 512c0 282.784 229.232 512 512 512c282.784 0 512-229.216 512-512C1024 229.232 794.784 0 512 0m0 961.008c-247.024 0-448-201.984-448-449.01c0-247.024 200.976-448 448-448s448 200.977 448 448s-200.976 449.01-448 449.01m32-462V192.002c0-17.664-14.336-32-32-32s-32 14.336-32 32v320c0 9.056 3.792 17.2 9.856 23.007c.529.624.96 1.296 1.537 1.887l158.384 158.4c12.496 12.481 32.752 12.481 45.248 0c12.496-12.496 12.496-32.768 0-45.264z"/></svg>
+                    <span class="text-sm text-gray-500">55:20</span>
+                  </div>
+                  <a class="hover:bg-red-600 rounded-md bg-pink-200" href="#">
+                    <div class= "text-red-500 flex items-center px-1 rounded-md py-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="#EC8A8A" d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8"/></svg>
+                      <span class="text-sm">1</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <a  class="text-lg text-slate-700 font-bold hover:text-blue-500" href="#">هوش مصنوعی و علم داده - آینده برنامه‌نویس‌ها<br> چی میشه؟ - قسمت اول</a>
+              <hr class="mt-2">
+              <a class="hover:text-gray-800 text-blue-500 text-xs mt-2" href="#"> برای گوش کردن کلیک کنید</a>
+
+            </div>
+          </div>
+          <div class="flex items-center justify-center mt-5 gap-2">
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="#64748B" d="M4 11.25a.75.75 0 0 0 0 1.5h9.25V18a.75.75 0 0 0 1.28.53l6-6a.75.75 0 0 0 0-1.06l-6-6a.75.75 0 0 0-1.28.53v5.25z"/></svg></a>
+            <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#DEE1E6" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24"><path fill="#64748B" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg></a>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="#64748B" d="M20 11.25a.75.75 0 0 1 0 1.5h-9.25V18a.75.75 0 0 1-1.28.53l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.28.53v5.25z"/></svg></a>
+          </div>
+         </section>
+         <!-- SECTION 7 -->
+          <section class="mt-20 mx-auto container flex justify-center">
+            <div class="w-10/12 bg-white  rounded-lg px-6 py-10 ">
+              <h3 class="text-3xl text-slate-800 font-bold ">آموزش برنامه نویسی با راکت</h3>
+              <p class="text-lg text-gray-600 mt-10">برنامه نویسی یکی از حوزه‌های داغ در دنیای کنونی است و افراد بسیار زیادی تصمیم دارند تا فرایند آموزش برنامه نویسی را آغاز کنند. دلایل بسیار زیادی برای این موضوع وجود دارد که در ادامه به آن‌ها خواهیم پرداخت. اما این نکته را در ذهن داشته باشید که یادگیری و آموزش برنامه نویسی می‌تواند آینده شما را تضمین کرده و مسیر کاری مشخصی را برای شما ایجاد کند.</p>
+              <p class="text-lg text-gray-600 mt-5">در این مطلب از وبسایت راکت قصد داریم در ارتباط با ضرورت آموزش برنامه نویسی صحبت کنیم، تاریخچه‌ای کلی از آن را مورد ارزیابی قراردهیم، مسیری برای آموزش برنامه نویسی از صفر را به شما معرفی کنیم و همچنین از آموزش‌های رایگان و آموزش‌های مربوط به وب بگوییم. </p>
+              <h3 class="text-3xl text-slate-800 font-bold mt-10">مزایا یادگیری و آموزش برنامه نویسی</h3>
+              <p class="text-lg text-gray-600 mt-10">دلایل زیادی برای یادگیری و آموزش برنامه نویسی وجود دارد. در اینجا چند مورد از مهم ترین آن‌ها آورده شده است:</p>
+            </div>
+
+          </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <section class="container mx-auto mt-20 mb-20 w-10/12">
+        <div class="flex justify-center">
+          <img src="/images/Annotation 2024-06-15 160812.png" alt="">
+          <div class="flex items-center gap-3">
+            <a class="bg-sky-100 hover:bg-blue-600 p-1 rounded-lg" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 16 16"><path fill="#3B82F6" d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104l.022.26l.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105l-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006l-.087-.004l-.171-.007l-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103l.003-.052l.008-.104l.022-.26l.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007l.172-.006l.086-.003l.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/></svg></a>
+            <a class="bg-sky-100 hover:bg-blue-600 p-1 rounded-lg" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="#3B82F6" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a>
+            <a class="bg-sky-100 hover:bg-blue-600 p-1 rounded-lg" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="#3B82F6" fill-rule="evenodd" d="M22 5.892a8.2 8.2 0 0 1-2.355.635a4.07 4.07 0 0 0 1.8-2.235a8.3 8.3 0 0 1-2.605.981A4.13 4.13 0 0 0 15.85 4a4.07 4.07 0 0 0-4.1 4.038q0 .466.105.919A11.7 11.7 0 0 1 3.4 4.734a4.006 4.006 0 0 0 1.268 5.392a4.2 4.2 0 0 1-1.859-.5v.05A4.06 4.06 0 0 0 6.1 13.635a4.2 4.2 0 0 1-1.856.07a4.11 4.11 0 0 0 3.831 2.807A8.36 8.36 0 0 1 2 18.184A11.73 11.73 0 0 0 8.291 20A11.5 11.5 0 0 0 19.964 8.5c0-.177 0-.349-.012-.523A8.1 8.1 0 0 0 22 5.892" clip-rule="evenodd"/></svg></a>
+            <a class="bg-sky-100 hover:bg-blue-600 p-1 rounded-lg" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="#3B82F6" d="M13.028 2c1.125.003 1.696.009 2.189.023l.194.007c.224.008.445.018.712.03c1.064.05 1.79.218 2.427.465c.66.254 1.216.598 1.772 1.153a4.9 4.9 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.012.266.022.487.03.712l.006.194c.015.492.021 1.063.023 2.188l.001.746v1.31a79 79 0 0 1-.023 2.188l-.006.194c-.008.225-.018.446-.03.712c-.05 1.065-.22 1.79-.466 2.428a4.9 4.9 0 0 1-1.153 1.772a4.9 4.9 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465l-.712.03l-.194.006c-.493.014-1.064.021-2.189.023l-.746.001h-1.309a78 78 0 0 1-2.189-.023l-.194-.006a63 63 0 0 1-.712-.031c-1.064-.05-1.79-.218-2.428-.465a4.9 4.9 0 0 1-1.771-1.153a4.9 4.9 0 0 1-1.154-1.772c-.247-.637-.415-1.363-.465-2.428l-.03-.712l-.005-.194A79 79 0 0 1 2 13.028v-2.056a79 79 0 0 1 .022-2.188l.007-.194c.008-.225.018-.446.03-.712c.05-1.065.218-1.79.465-2.428A4.9 4.9 0 0 1 3.68 3.678a4.9 4.9 0 0 1 1.77-1.153c.638-.247 1.363-.415 2.428-.465c.266-.012.488-.022.712-.03l.194-.006a79 79 0 0 1 2.188-.023zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0 2a3 3 0 1 1 .001 6a3 3 0 0 1 0-6m5.25-3.5a1.25 1.25 0 0 0 0 2.5a1.25 1.25 0 0 0 0-2.5"/></svg></a>
+            <a class="bg-sky-100 hover:bg-blue-600 p-1 rounded-lg" href=""><svg  xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#3B82F6" d="M19.777 4.43a1.5 1.5 0 0 1 2.062 1.626l-2.268 13.757c-.22 1.327-1.676 2.088-2.893 1.427c-1.018-.553-2.53-1.405-3.89-2.294c-.68-.445-2.763-1.87-2.507-2.884c.22-.867 3.72-4.125 5.72-6.062c.785-.761.427-1.2-.5-.5c-2.302 1.738-5.998 4.381-7.22 5.125c-1.078.656-1.64.768-2.312.656c-1.226-.204-2.363-.52-3.291-.905c-1.254-.52-1.193-2.244-.001-2.746z"/></g></svg></a>
+          </div>
+        </div>
+        <div class="lg:flex mx-auto justify-center">
+          <div class=" w-4/12">
+            <h3 class="text-xl text-slate-800 font-bold">درباره راکت</h3>
+            <p class="text-md text-gray-500 mt-4">راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح ایران<br> است که همیشه تلاش کرده تا بتواند جدیدترین و بروزترین مقالات و<br> دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد. تبدیل کردن<br> برنامه نویسان ایرانی به بهترین برنامه نویسان جهان هدف ماست.</p>
+          </div>
+          <div class=" w-3/12 flex flex-col items-center">
+            <h3 class="text-xl text-slate-800 font-bold">بخش های سایت</h3>
+            <ul class="text-md text-gray-500 mt-4 flex flex-col gap-2">
+              <li><a class="hover:text-gray-900" href="">قوانین و مقررات</a></li>
+              <li><a class="hover:text-gray-900" href="">مدرسان راکت</a></li>
+              <li><a class="hover:text-gray-900" href="">درباره راکت</a></li>
+              <li><a class="hover:text-gray-900" href="">ارتباط با ما</a></li>
+            </ul>
+          </div>
+          <div class=" w-3/12 ">
+            <h3 class="text-xl text-slate-800 font-bold">ارتباط با ما</h3>
+            <div class="flex justify-between text-md text-gray-500 mt-4">
+              <span>ایمیل:</span>
+              <span>info@roocket.ir</span>
+            </div>
+            <div class="flex justify-between text-md text-gray-500 mt-4">
+              <span>آی دی تلگرام:</span>
+              <span>roocket_support@</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-around items-center">
+
+          <div class="flex w-5/12 h-10">
+            <input class="outline-none border rounded-s-lg border-gray-500 w-11/12 text-sm" placeholder="برای اطلاع از جدیدیترین اخبار و جشنواره های تخفیفی راکت ایمیل خود را وارد کنید." type="text">
+            <button class="bg-blue-500 text-white  py-1 w-36 rounded-e-lg">ثبت ایمیل</button>
+          </div>
+          <div class="flex">
+            <img src="https://roocket.ir/img/pic/samandehi.png?width=90&height=110" alt="">
+            <img src="https://roocket.ir/img/pic/enamad.png?width=100&height=110" alt="">
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm justify-center xl:ms-32 lg:ms-20">کليه حقوق محصولات و محتوای اين سایت متعلق به راکت می باشد و هر گونه کپی برداری از محتوا و محصولات سایت غیر مجاز و بدون رضایت ماست.</p>
+      </section>
+    </footer>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (
+        localStorage.getItem("color-theme") === "dark" ||
+        (!("color-theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <script src="/src/scripts.js"></script>
+  </body>
+</html>
